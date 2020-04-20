@@ -1,0 +1,2 @@
+- [] What is closues 
+- [] and why it's important

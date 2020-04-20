@@ -1,2 +1,2 @@
-- [] What is closues 
-- [] and why it's important
+- [ ] What is closues 
+- [ ] and why it's important

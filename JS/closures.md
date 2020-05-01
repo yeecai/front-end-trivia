@@ -1,6 +1,6 @@
-- [x] What is closues: in a closure a special object, with functions(or a function am not sure) with some variables outside it's scope, and the function can access those variables because of closure, kinda like private function within a class in other OOP language like JAVA or C++
-- [x] and why it's important:  closure is one of the strategies that make JS OOP too, hooray!
-- [x] cautions: cus you might bug your program with loops by creating closures, Oops! and careful, it might cause memory leak.
+- [x] What is closues:  a special object, with functions(or a function am not sure) and some variables outside it's scope, and the function can access those out-of-scope variables because of closure, kinda like private function within a class in other OOP languages i.g. JAVA or C++.
+- [x] What's for:  closure is one of the strategies that make JS OOP too, hooray!
+- [x] Pitfalls: You might bug your program with loops by creating closures and it might cause memory leak.
 
 
 [promise me you will read this!](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)

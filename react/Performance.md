@@ -1,0 +1,3 @@
+- [] PureComponent vs Component:
+- [] ShouldUpdate
+- [] 

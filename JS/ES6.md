@@ -1,2 +1,3 @@
-### let
-### arrow
+### let & const
+### arrow vs normal function
+

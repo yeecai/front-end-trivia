@@ -1,5 +1,5 @@
 
-  ![pic](https://github.com/yeecai/front-end-trivia/tree/master/react/react<164.png?raw=true)
+  ![pic](react<164.png?raw=true)
 
 1.< 16.4
   - [ ] initializing
@@ -16,7 +16,7 @@
   - [ ] unmounting
   
   
-  2. >= 16.4
+  2.>= 16.4
   - [ ] Reason of change
   - [ ] updating:
   

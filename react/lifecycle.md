@@ -1,5 +1,5 @@
 
-  ![pic](lifecylce1.png)
+  ![pic](https://github.com/yeecai/front-end-trivia/tree/master/react/lifecylce1.png)
 
 1.< 16.4
   - [ ] initializing

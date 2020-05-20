@@ -1,5 +1,5 @@
 
-  ![pic](react<164.png?raw=true)
+  ![pic](lifecylce1.png)
 
 1.< 16.4
   - [ ] initializing

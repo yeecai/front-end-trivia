@@ -1,6 +1,8 @@
 
   ![pic](https://github.com/yeecai/front-end-trivia/blob/master/react/lifecycle1.png?raw=true)
 
+  ![pic](https://user-images.githubusercontent.com/23628182/82418364-7c161e00-9aaf-11ea-9002-e0c70c4c38e5.png)
+
 1.< 16.4
   - [ ] initializing
   - [ ] mounting:

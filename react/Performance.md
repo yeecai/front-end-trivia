@@ -1,6 +1,6 @@
 1. avoid child component re-render
 - [ ] PureComponent
-    shallow comparison: only primitive same value ==? or ===, reference same
+    shallow comparison:  primitive only compare value, arrays or object only compare reference
 - [ ] Memo :
 - [x] shouldComponentUpdate:
 ```

@@ -1,4 +1,5 @@
 1. All the ways to avoid unneccesary child component re-render!
+
 Fact: Once parent component re-renders, the child component will re-render too.
 - [x] PureComponent
     1. shallow comparison:  primitive only compare value, arrays or object only compare reference, expect you don't mutate data(objects or arrays), if you do, child component won't know about props updated.

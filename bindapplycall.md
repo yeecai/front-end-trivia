@@ -1,6 +1,7 @@
 - [ ] how to use to!
 - [ ] why
 - [ ] example for each
+- [ ] How to implement a bind
 
 1. bind(thisArg): create a new func, bind this to thisArg
 ```

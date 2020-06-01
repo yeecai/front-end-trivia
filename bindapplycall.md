@@ -1,5 +1,5 @@
-- [ ] how to use to!
-- [ ] why
+- [x] how to use to!
+- [x] why : because this will change to the last object calling it
 - [ ] example for each
 - [ ] How to implement a bind
 
@@ -11,6 +11,16 @@
     }
     //or arrow func
 ```
+```
+//version1
+    const bind1(fun, ctx) {
+        const newFun = function(){
+            return newFun.appy(ctx, arguments)
+        }
+        //toString
+        return newFun
+    }
+```
 2. apply(thisArg, [...argsArray]): 
 ```
 const max = Math.max.apply(null, numbers);
@@ -20,3 +30,4 @@ const max = Math.max.apply(null, numbers);
 3. call(thisArg, arg1,arg2，...):
 same with apply but with a list of args instead of an array
 ```
+

@@ -1,6 +1,7 @@
 
 
-- [ ] what
+- [x] what
+
 throttle will only call the function and once per n secs, debounce will delay ns to call the function, if interrupted during the ns, start again, e.g. a search(<input>)will get a search result only there's no input for ns.
 
 throttle:

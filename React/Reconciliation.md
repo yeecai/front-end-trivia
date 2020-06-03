@@ -29,4 +29,6 @@ PS: ```<div> -> <p>``` will destory the whole div tree call componentWillUnmount
 The key of performance optimazation is to avoid unnecessary re-render(reconciliation) by shouldComponentUpdate return false etc.  And put unique key of list. Don't change the node type.
   
   
-- [ ] So why pureComponent can help children get away from re-render, and how?
+- [x] So why pureComponent can help children get away from re-render, and how?
+
+      : Because React.pureComponent implements shouldComponentUpdate and do a shallow compare about props and state in it while React.Component's doesn't implement it and by default it return true. [ref](https://reactjs.org/docs/react-api.html#reactpurecomponent)

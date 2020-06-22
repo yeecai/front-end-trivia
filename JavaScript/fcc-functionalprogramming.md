@@ -6,6 +6,9 @@
 3. 
 - [x] avoid mutation: pass arguments instead change global variables.
 Changes lead to bugs, ideally function should be pure, which means no side-effects like mutation.
+4. explain side-effects and why side-effects is 'evil'
+- [x] unpredictable [ref](https://dzone.com/articles/side-effects-1#:~:text=The%20reason%20why%20side%20effects,result%2C%20given%20the%20same%20input.)
+
 
 [ffc](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/understand-functional-programming-terminology)
 [arrow](vinta.com.br/blog/2015/javascript-lambda-and-arrow-functions/)

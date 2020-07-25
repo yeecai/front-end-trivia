@@ -18,6 +18,7 @@ Difference beatween tasks and micro-tasks:
 2. microtask queue can add new micros-tasks in middle of one event-loop and the new ones will be executed too, before the end of same event-loop
 
 The problem of JavaScript being single-threaded:
+
 the problem of singe-threaded, ui and code in same thread, same event loop, bug or time-consuming operations can block the ui, the website is not responsing, it even then stall the broswer.
 
 The fixes: 

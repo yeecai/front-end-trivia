@@ -27,4 +27,5 @@ The fixes:
 3. micro task(micro-async), finer and more flexiable and faster, it's like promise if faster than setTimeout(..., 0)
 
 [In depth: Microtasks and the JavaScript runtime environment](https://developer.mozilla.org/zh-CN/docs/Web/API/HTML_DOM_API/Microtask_guide/In_depth)
+
 [「前端进阶」从多线程到Event Loop全面梳理](https://juejin.im/post/5d5b4c2df265da03dd3d73e5#heading-15)

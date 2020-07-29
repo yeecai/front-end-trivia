@@ -14,8 +14,8 @@
 
 ### px, em, rem, vw, wh
 
-1. em 
-2. 
+1. em, font-size, one em equals to parent's font-size, by default often as browser's 16px, it got a problem as compounding
+2. rem values is relative to root HTML so no compounding [ref](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
 
 ### Block, inline, inline-block
  1. Block: one element one line

@@ -1,4 +1,5 @@
-### let & const
+###  
+- [ ] let & const
 - [x] arrow vs normal function
    1. Arrow functions don't have their own this, they inherit it from the enclosing scope. So when you call or apply this on the arrow functions, it will only pass the arguments, i.g. ```arrowFunction.call(this, arg1) // this will be ingored```
    2. Shorter and cleaner syntax(a huge plus :)
@@ -16,3 +17,4 @@ Questions:
 
 - [ ] generator: write a iterator
 - [ ] what is new in JavaScript 
+- [ ] Do we still need normal functions? if so why? when do we need to use normal functions

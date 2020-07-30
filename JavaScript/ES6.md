@@ -18,4 +18,5 @@ Questions:
 - [ ] generator: write a iterator
 - [ ] what is new in JavaScript 
 - [x] Do we still need normal functions? if so why? when do we need to use normal functions:
+   
    A: to write generators.

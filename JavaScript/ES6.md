@@ -1,11 +1,17 @@
 ### let & const
 - [x] arrow vs normal function
-   1. No this, so call or apply will only pass the parameters, a.call(b, c) // b will be ingored
-   2. Shorter 
-   3. No default argument object(but can ...args instead), no prototype
-   4. Can't yeild, can't be newed
+   1. Arrow functions don't have their own this, they inherit it from the enclosing scope. So when you call or apply this on the arrow functions, it will only pass the arguments, i.g. ```arrowFunction.call(this, arg1) // this will be ingored```
+   2. Shorter and cleaner syntax(a huge plus :)
+   3. No default arguments object(but can ...args instead), no prototype
+   4. Can't yeild, can't be newed.
+   5. If you trying to return a empty object, you need parentheses [es6-in-depth-arrow-functions](https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/).
+   ```
+     let newArrays = oldArrays.map(item => {});   // wrong! cause item => {} means an arraw function that returns undefined
+     let newArrays = oldArrays.map(item => ({})); // ok
+   ```
    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-- [] generator: write a iterator
-   
+  Questions:  
 
+- [ ] generator: write a iterator
+- [ ] what is new in JavaScript 

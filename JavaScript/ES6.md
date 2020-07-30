@@ -9,9 +9,10 @@
      let newArrays = oldArrays.map(item => {});   // wrong! cause item => {} means an arraw function that returns undefined
      let newArrays = oldArrays.map(item => ({})); // ok
    ```
-   [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+   
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-  Questions:  
+Questions:  
 
 - [ ] generator: write a iterator
 - [ ] what is new in JavaScript 

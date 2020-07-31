@@ -10,7 +10,18 @@
      let newArrays = oldArrays.map(item => {});   // wrong! cause item => {} means an arraw function that returns undefined
      let newArrays = oldArrays.map(item => ({})); // ok
    ```
-   
+- [ ] Async/Await vs Promise.then() chain:
+   1. If you have lots of code in Promise.then(), async/await probably better choice to keep the code clean, i.g. 
+  ```
+  .then(res => {
+   // 1000 lines of code here in the block
+   })
+   or 
+   res = await Promise()
+   doSomeThing(res)// you can put the 1000 lines of code somewhere else, make it more organized.
+  ```
+ 
+
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 Questions:  

@@ -15,10 +15,12 @@ very good question I literally got asked during an interview with a company usin
 redux-thunk here is the representive.
 Of cause we can make a regular actionCreator for dispatch async actions, pass dispatch function as parameter, and dispatch action inside, 
 
- ```actionCreator1(dispatch, parameter) 
+ ```
+ actionCreator1(dispatch, parameter) 
  ```
 Without reac-thunk, action needs to be plain object(async operation can be in wrapper function tho), and with help of middleware, you can dispatch thunk(action as function instead of plain object)
-```dispatch(actionCreator2(parameter)
+```
+dispatch(actionCreator2(parameter)
 ```
 
 1. The most convienient point is that react-thunk provide getState as 2nd parameter, if you need to access store value in the future, don't have change the caller code to pass another variable as const state = store.getState()

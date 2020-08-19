@@ -46,3 +46,4 @@
         return obj.hasOwnProperty(typeof item + item) ? false : (obj[typeof item + item] = true) 
     })
     ```
+[Reference](https://segmentfault.com/a/1190000016418021)

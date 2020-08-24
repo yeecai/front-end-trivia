@@ -1,10 +1,11 @@
 //数组去重
 
+// es6
 1. [...new Set(arr)]
-
-2. for + for
-3. sort
-4. for + indexOf / includes
+//es5
+2. for + for + splice
+3. sort + new Array + for
+4. for + new Array + indexOf / includes
     ```
     forEach(item => {
         if(!arr.includes(item)) {
@@ -18,7 +19,7 @@
     })
 
     ```
-5. Map
+5. Map : foreach 
    ```
     forEach( item => {
         if(map.has(item)){
@@ -47,3 +48,4 @@
     })
     ```
 [Reference](https://segmentfault.com/a/1190000016418021)
+

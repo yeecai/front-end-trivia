@@ -2,8 +2,11 @@ transfer irregular object-like string into JSONlike string then, use JSON.parse 
 
 
 ```
-let jsonTemp = yourJson.replace((/([\w+])(:)/g), "\"$1\"$2")
+let jsonTemp = yourJson.replace((/([\w]+)(:)/g), "\"$1\"$2")
+
 let correctTemp = jsonTemp.replace((/'/g, """)
+
+let yourJson = "[{firstName: 'yeee', lastName: 'Cai'}]"
 ```
 
-e.g. "[{firstName: 'yeee', lastName: 'Cai'}]"
+e.g. 

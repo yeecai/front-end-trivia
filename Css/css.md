@@ -27,3 +27,10 @@
  ### Semantic tag
  1. Good for search engine to take snapshot
  2. Good for render the content ?
+
+### Visibility:hidden vs display:none vs opacity:0
+1. display: none will destroy element, cause repaint;
+2. visibility:hidden will hide the element but hold the same space;
+3. opacity will be transparent and hold all the event.
+
+- [ ] the process of repainting of broswer

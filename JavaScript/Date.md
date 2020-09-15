@@ -6,3 +6,12 @@ then else:
   - [ ] How to modify the time of a date
   
   - [ ] ...
+
+
+How to get timestamp 
+
+- + new Date()
+- new Date - 0
+- (new Date()).valueOf()
+- (new Date()).getTime()
+- Date.now()

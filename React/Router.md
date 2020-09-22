@@ -9,6 +9,8 @@ It uses history API,  vue-router's push/replace/go() imimates History API
 - need broswer support history API
 
 ### HashROuter
+
+The hash part of url will be actually igorned by server, and it's handled as parameter by the client side.
 - window.hash
 - window.addEventListener('hashchange')
 - full support

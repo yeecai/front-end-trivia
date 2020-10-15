@@ -24,3 +24,11 @@
   
   
   Ps: not save to operate DOM before commit stage.
+
+
+ - [ ] A question, why can't we write lifecycle functions as arrow function, e.g. componentDidMount = () => {...}
+ 
+ The answer is we can, the broswer won't complain about it, but the performance may suffer if you have lots instance of your component, because arrow function will create function object on each instance instead of reuse the function on prototype, that's why better keep it as componentDidMount() {}
+ 
+ 
+ Happy coding : )

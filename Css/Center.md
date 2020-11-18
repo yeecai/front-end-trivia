@@ -1,14 +1,49 @@
+### Horizontally
 
-Vertical:
+- [x] display flex;  margin: 0 auto/ justify-content: center; // flexbox is always the simplest solution;
 
+- [x] margin: 0 auto; width: fit-content; //use a parent div as wrapper with margin auto and width: fit-content, the child  will be centered;
+  - display: block; width; margin: 0 auto; //
+  - [x] display: inline-block; parent: text-align: center(optional);
+- [x] position: absolute; left or right : 50%; transform: translateX(-50 or 50%) or calc(50% - half width); 
 
-There's some methods I've tested
+### Vertically
 
-
-1. 18px is half of the target height， position absolute is neccesary
-```
+1. position absolute + 50%.
+```scss
 .logo {
   position: absolute;
-  top: calc(50% - 18px); //垂直居中
+  top: calc(50% - half the height); 
 }
 ```
+
+2. display: table-cell; vertical-align: middle;
+
+   ```scss
+   .verticalAlign {
+     display: table-cell;
+     vertical-align: middle;
+     margin-top: 20px;
+     background-color: #767;
+     height: 200px;
+     width: 50vw;
+     .innerBox {
+       height: 40px;
+       width: 40px;
+       background-color: #547;
+     }
+   }
+   ```
+
+   
+
+3. display: flex; align-items: center;
+
+4. display:flex; margin:auto 0
+
+
+
+### H & V
+
+- [x] display: flex; align-items: center; justify-content: center/ margin: auto;
+- [x]  left + top 50%;

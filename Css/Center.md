@@ -1,6 +1,6 @@
 ### Horizontally
 
-The methods include flexbox, absolute position with 50% from left minus half itselfs width and margin auto:
+The methods include flexbox, absolute position with 50% offset and margin auto:
 
 - [x] display flex; margin: 0 auto/ justify-content: center; // flexbox is always the simplest solution;
 

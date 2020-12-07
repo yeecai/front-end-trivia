@@ -44,9 +44,9 @@ flexbox, table-cell:
 
 4. display:flex; margin:auto 0.
 
-### H & V
+### Horizontally & Vertically
 
 flexbox, absolute position with offset:
 
 - [x] display: flex; (align-items: center; justify-content: center;)/ margin: auto;
-- [x] postion: absolute; left and top 50%; margin: -half the height, 0, -half the width,0.
+- [x] position: absolute; left and top 50%; margin: -half the height, 0, -half the width,0.

@@ -1,0 +1,3 @@
+V-show === display: none
+V-if doesn't create node if the value is false, so it's safe to a.b even a maybe undefined
+But V-show will still create the node, so a error will be thrown

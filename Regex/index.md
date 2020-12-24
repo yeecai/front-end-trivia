@@ -26,4 +26,6 @@ __proto__: Array(0)
 
 ### Case2
 when the api's data attribut is user-id and your form property is userId
+```
 "userId".replace(/([a-z])([A-Z])/,"$1-$2").toLowerCase()
+```

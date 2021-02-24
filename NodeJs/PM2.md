@@ -1,10 +1,12 @@
-pm2 usage
+###pm2 usage
 
 npm i -D express compression
+
 pm2 start/restart/stop/delete server.js
 
 
 pm2 list
+
 pm2 logs --err
 
 

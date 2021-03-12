@@ -4,4 +4,4 @@ How to merge a specific file from another branch without other change?
 
 --patch in case you don't have theFile.xxx in your current branch
 
-But by 'merge' it actually means overwrite, beware that it will overwrite your current branch file with another branch file!
+But by 'merge' it actually means overwrite, beware this will overwrite your current branch file with another branch file!

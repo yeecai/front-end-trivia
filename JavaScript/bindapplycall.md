@@ -20,6 +20,11 @@
         //toString
         return newFun
     }
+    
+    ps: you can also curring with bind
+    let base = (x, y) => x + y 
+    let curr = base.bind(null, 1) // bind 1 to x
+    curr(2) // 3
 ```
 2. apply(thisArg, [...argsArray]): 
 ```

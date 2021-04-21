@@ -21,3 +21,8 @@ console.log(add(1)(2)(1,2));
 
 // fn的tostring字段引用等号右侧函数
 // Console 调用toString
+
+// bind
+const base = (x, y) => x + y 
+const curr = base.bind(null, 1) // bind 1 to x
+curr(2) // 3

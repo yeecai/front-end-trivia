@@ -35,3 +35,9 @@ when the api's data attribut is user-id and your form property is userId
  ```
  "vue-component-35-el-tooltip".match(/\d+-(.*)/gi) => ['35-el-tooltio']
  ```
+ 
+ ### Case 4
+ match everthing between the curly brackets
+ ```
+ /{(.*?)}/
+ ```

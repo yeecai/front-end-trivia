@@ -30,7 +30,7 @@ when the api's data attribut is user-id and your form property is userId
 "userId".replace(/([a-z])([A-Z])/,"$1-$2").toLowerCase()
 ```
 ```
-"{ label: 'xxxx', value: yyy }".replace(/label: (.*?), value(.*?)/g,"$1-$2") => xxx-yyy
+"{ label: 'xxxx', value: yyy }".replace(/label: (.*?), value: (.*?)/g,"$1-$2") => "{ 'xxxx'-yyy }"
 ```
 
 ### Case 3

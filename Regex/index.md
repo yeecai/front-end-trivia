@@ -29,6 +29,9 @@ when the api's data attribut is user-id and your form property is userId
 ```
 "userId".replace(/([a-z])([A-Z])/,"$1-$2").toLowerCase()
 ```
+```
+"{ label: 'xxxx', value: yyy }".replace(/label: (.*?), value(.*?)/g,"$1-$2") => xxx-yyy
+```
 
 ### Case 3
  match vue component name

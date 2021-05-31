@@ -1,2 +1,5 @@
 1. fetch a single file
-```git checkout origin/master -- path/to/file```
+```
+git fetch --all
+git checkout origin/master -- path/to/file
+```

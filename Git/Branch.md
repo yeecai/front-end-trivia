@@ -8,5 +8,5 @@
 
 Option1:
 
-Option2: ``` git checkout --track origin/remoteName ```
+Option2: ``` git checkout --track origin/remoteName ``` [source](https://stackoverflow.com/questions/24301914/how-to-create-a-local-branch-from-an-existing-remote-branch)
 

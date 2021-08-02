@@ -1,4 +1,5 @@
-### after delete branch
+### After merge the feature branch
 
-git branch -d xxx
-git push origin ---delete xxx // clean up the remote one
+```git branch -d branchName``` // delete the local branch 
+
+```git push origin ---delete xxx``` // delete the remote branch

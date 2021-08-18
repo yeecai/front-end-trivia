@@ -1,3 +1,5 @@
-1. height: auto
-2. min-height: 
-3. max-height:
+1. height: 
+    - auto: children's height
+    - 100% parent's height
+3. min-height: 
+4. max-height:

@@ -48,7 +48,7 @@ when the api's data attribut is user-id and your form property is userId
  ### Case 5 
  Trim positive interger, match all non-positive interger digits and replace it with ''"
  ```
- ^[^1-9]+|\D or /^[^1-9]+|[^0-9]/
+ /^[^1-9]+|\D/ or /^[^1-9]+|[^0-9]/
  ```
  ```
  value=value.replace(/^[^1-9]+|[^0-9]/g, '')

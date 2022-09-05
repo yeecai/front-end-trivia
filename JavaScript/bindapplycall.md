@@ -36,3 +36,4 @@ const max = Math.max.apply(null, numbers);
 same with apply but with a list of args instead of an array
 ```
 
+https://segmentfault.com/a/1190000018017796
